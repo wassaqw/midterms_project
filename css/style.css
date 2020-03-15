@@ -1,0 +1,236 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+/* start navigation */ 
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 20rem 0 0rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+
+
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */ 
+
+/* Banner*/
+.site-main .site-banner{
+    height: 90vh;   
+}
+
+.site-main .site-banner .row .col-lg-6{
+padding-top: 10%;
+}
+
+.site-main .site-banner .site-title{
+    padding-left: 5%;
+}
+
+
+
+.site-main .site-banner .site-title .hthree{
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+
+.site-main .site-banner{
+    background: url(../img/banner/bg1.png) no-repeat;
+    background-position: 0% 50%;
+    z-index: 50;
+    position: relative;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 0%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .col-lg-6{
+    
+    height: 90vh;
+    
+}
+
+/* Banner*/
+
+/*About*/
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+.site-main .about-area{
+    background: url(../img/banner/bg12.jpg) no-repeat;
+    background-position: 0% 50%;
+    z-index: 50;
+    position: relative;
+}
+
+
+
+/*test costumization*/
+.site-main .about-area{
+    padding-top: 0%; 
+    padding-bottom: 0%;    
+}
+.site-main .about-area .about-image{
+    padding-top: 200px;
+}
+.site-main .about-area .pt-5{  
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 40px;
+}
+.site-main .about-area .line{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: var(--gradient-color2);
+    display: inline-block;
+}
+
+.site-main .about-area .para{
+    font-weight: 1000;
+    font-family: var(--roboto);
+    color: black;
+}
+
+.site-main .about-area .col-lg-6{
+    font-size: 300%;
+    font-weight: 1000;
+    font-family: var(--roboto);
+    color: black;
+}
+
+.site-main .about-area .pharagraph{
+    margin-top: 3%;
+}
+/*About*/
+
+/* Project Area */ 
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+
+
+/*Academics*/
+
+.site-main .academics-area .col-lg-6{
+    text-align: center;
+    margin: auto;
+}
+
+.site-main .academics-area{
+    background: var(--gradient-color2);
+    height: 90vh;
+}
+
+
+.site-main .academics-area .para{
+    font-weight: 1000;
+    font-family: var(--roboto);
+    color: black;
+}
+
+.site-main .academics-area .col-lg-6{
+    font-size: 300%;
+    font-weight: 1000;
+    font-family: var(--roboto);
+    color: black;
+    margin-top: 5%;
+}
+
+.site-main .academics-area .pharagraph{
+    margin-top: 3%;
+}
+
+.site-main .academics-area{
+    height: 100vh;
+
+}
+/*Academics*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Project Area */ 
+
+/*custom*/
+.site-main .site-banner{
+    height: 100%;
+    display: flex;
+    
+}
+
